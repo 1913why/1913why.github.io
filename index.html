@@ -31,6 +31,12 @@ h2{
     margin-top:45px;
 }
 
+h3{
+    color:#ccc;
+    margin-top:30px;
+    font-size:20px;
+}
+
 p{
     color:#ccc;
 }
@@ -50,6 +56,29 @@ a{
 
 a:hover{
     text-decoration:underline;
+}
+
+/* 테이블 스타일 추가 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+    color: #d9b36c;
+}
+
+td {
+    color: #ccc;
 }
 
 .footer{
@@ -101,6 +130,25 @@ Our documentaries may include historical photographs, maps, manuscripts, newspap
 <li>Los Alamos National Laboratory</li>
 <li>National Nuclear Security Administration</li>
 </ul>
+
+<!-- 요청하신 특정 미디어 에셋 표 추가 완료 -->
+<h3>Specific Media Credits</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Asset</th>
+            <th>Source / Link</th>
+            <th>License</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>John von Neumann (Childhood)</strong></td>
+            <td><a href="https://commons.wikimedia.org/wiki/File:john_von_Neumann_as_child.jpg" target="_blank">Wikimedia Commons</a></td>
+            <td>Public Domain</td>
+        </tr>
+    </tbody>
+</table>
 
 <h2>Research Policy</h2>
 
